@@ -1,6 +1,6 @@
 var xhr= new XMLHttpRequest();
 xhr.open('GET','https://pokeapi.co/api/v2/pokemon/?limit=151',true);
-xhr.timeout=25000;
+xhr.timeout=45000;
 xhr.ontimeout=function(){
     console.log('Время вышло');
 }
